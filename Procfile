@@ -1,1 +1,1 @@
-worker: python Future gamer.py
+worker: python fg.py
