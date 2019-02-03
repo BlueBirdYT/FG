@@ -7,6 +7,7 @@ import colorsys
 import random
 import aiohttp
 import datetime
+import os
 
 forbidden= discord.Embed(title="Permission Denied", description="1) Please check whether you have permission to perform this action or not. \n2) Please check whether my role has permission to perform this action in this channel or not. \n3) Please check my role position.", color=0x00ff00)
 client = commands.Bot(description="future gamer", command_prefix=commands.when_mentioned_or("!" ), pm_help = True)
@@ -957,6 +958,5 @@ async def removemod(ctx, user: discord.Member):
     await client.delete_message(ctx.message)
 
 
+client.run(os.getenv('Token'))
 
-
-client.run('NTQwMTY4MDY3MTQxOTkyNDU4.DzM-Pg.zn0iJZjmsKIO4fYL4j1XzrVp7To')
