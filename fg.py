@@ -1043,6 +1043,7 @@ async def help3(ctx):
     embed.add_field(name = 'remind', value ='remind yourself',inline = False)
     embed.add_field(name = 'makemod', value ='make someone mod',inline = False)
     embed.add_field(name = 'removemod', value ='remove a mod',inline = False)
+    embed.add_field(name = 'ownerinfo', value ='see the info the bot owner',inline = False)
     await client.send_message(author,embed=embed)
     await client.say('📨 Check DMs For Information')    
 
