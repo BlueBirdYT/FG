@@ -100,6 +100,18 @@ async def servers(ctx):
   await client.say('\n'.join(server.name for server in servers))
 
 @client.command(pass_context = True)
+@commands.check(is_owner)
+async def s(ctx):
+    await client.say('a p_k_c_h_ just spawned type !catch (pokemon name) to catch')
+    
+@client.command(pass_context = True)
+@commands.check(is_owner)
+async def catch pikachu(ctx):
+    await client.say('Congratulations @GAMER SAHIL#9246 you just caught a pikachu
+
+
+
+@client.command(pass_context = True)
 async def lock(ctx, channelname: discord.Channel=None):
     overwrite = discord.PermissionOverwrite(send_messages=False, read_messages=True)
     if not channelname:
