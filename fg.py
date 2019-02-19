@@ -689,7 +689,7 @@ async def ownerinfo(ctx):
     embed = discord.Embed(title="Information about owner", description="Main Creator: GAMER SAHIL", color=0x00ff00)
     embed.set_author(name=" Bot Owner "" GAMER SAHIL#9246")
     embed.add_field(name="Co-owner: BlueBird ❄ Froakie collector#0440", value="He coded the bot")
-    embed.add_field(name="invite to add bot https://discordapp.com/api/oauth2/authorize?client_id=540168067141992458&permissions=0&scope=bot", value="Thanks for adding our bot", inline=True)
+    embed.add_field(name="invite to add bot https://discordapp.com/api/oauth2/authorize?client_id=540168067141992458&permissions=8&scope=bot", value="Thanks for adding our bot", inline=True)
     await client.say(embed=embed)
 
 @client.command(pass_context = True)
