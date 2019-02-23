@@ -1045,7 +1045,7 @@ async def help3(ctx):
     embed.add_field(name = 'makemod', value ='make someone mod',inline = False)
     embed.add_field(name = 'removemod', value ='remove a mod',inline = False)
     embed.add_field(name = 'ownerinfo', value ='see the info the bot owner',inline = False)
-     embed.add_field(name = 'play', value ='play songs',inline = False)
+    embed.add_field(name = 'play', value ='play songs',inline = False)
     embed.add_field(name = 'stop', value ='stop the bot from playing songs',inline = False)
     embed.add_field(name = 'queue', value ='see the queue',inline = False)
     embed.add_field(name = 'np', value ='check the current song playing',inline = False)
